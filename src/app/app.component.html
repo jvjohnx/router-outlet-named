@@ -2,9 +2,7 @@
 
 <nav>
     <!-- Link to open Home + Chat sidebar -->
-<!--    <a [routerLink]="[{ outlets: { primary: '', sidebar: ['chat'] } }]">Open Chat Sidebar</a> |  this-Doesn't-work-->
     <a [routerLink]="['/', { outlets: { sidebar: ['chat'] } }]">Open Chat Sidebar</a> |
-<!--    <a [routerLink]="[{ outlets: { sidebar: ['chat'] } }]">Open Chat Sidebar</a>   |-->
     <!-- Close Chat -->
     <a [routerLink]="[{ outlets: { sidebar: null } }]">Close Chat Sidebar</a>
 </nav>
